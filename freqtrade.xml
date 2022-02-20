@@ -35,6 +35,11 @@
   <Environment/>
   <Data>
     <Volume>
+      <HostDir>/mnt/user/appdata/freqtrade</HostDir>
+      <ContainerDir>/freqtrade</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
       <HostDir>/mnt/user/appdata/freqtrade/user_data</HostDir>
       <ContainerDir>/freqtrade/user_data</ContainerDir>
       <Mode>rw</Mode>
