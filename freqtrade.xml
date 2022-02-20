@@ -24,7 +24,7 @@
   </Description>
   <Registry>https://registry.hub.docker.com/r/freqtradeorg/freqtrade</Registry>
   <GitHub>https://github.com/freqtrade/freqtrade</GitHub>
-  <Repository>freqtrade/freqtrade</Repository>
+  <Repository>freqtradeorg/freqtrade</Repository>
   <Support></Support>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
