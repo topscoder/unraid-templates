@@ -32,7 +32,28 @@
     <Mode>host</Mode>
     <Publish/>
   </Networking>
-  <Environment/>
+  <Environment>
+    <Variable>
+      <Value>/freqtrade/user_data/logs/freqtrade.log</Value>
+      <Name>LOGFILE</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>sqlite:////freqtrade/user_data/tradesv3.sqlite</Value>
+      <Name>DB_URL</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>/freqtrade/user_data/config.json</Value>
+      <Name>CONFIG</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>SampleStrategy</Value>
+      <Name>STRATEGY</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
   <Data>
     <Volume>
       <HostDir>/mnt/user/appdata/freqtrade</HostDir>
